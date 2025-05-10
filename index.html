@@ -1,194 +1,247 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <title>Gauri Joshi - Portfolio</title>
-  <link rel="stylesheet" href="./style.css" />
-  <script src="./script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-Kd6hM0W9P773z93oH7+Q2K6rF6E17K1K+L1Xk+G7lB+2xL1L7C7C0G1W9P1W1Y1W2W3W4W5W6W7W8W9W0=" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <!-- Navigation Bar -->
   <nav>
-    <div id="home">
-      <div class="profile_name">
-        Gauri Joshi
-        <div class="contact_info">
-          <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope" />
-          gauri.joshi@mitaoe.ac.in
-        </div>
-        <div style="clear:both;"></div>
-        <div class="contact_info">
-          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope" />
-          9518364589
-
-        </div>
-      </div>
-      <div class="topdiv">
-        <a class="topmenu" href="#about-me">About Me</a>
-        <a class="topmenu" href="#skills">Skills</a>
-        <a class="topmenu" href="#projects">Projects</a>
-        <a class="topmenu" href="#recommendations">Recommendations</a>
-
-      </div>
+    <div class="nav-container">
+      <h1>MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Let's Connect</a></li>
+        <li>
+          <label class="switch">
+            <input type="checkbox" id="modeToggle" />
+            <span class="slider round"></span>
+          </label>
+        </li>
+      </ul>
     </div>
   </nav>
 
-  <!-- About Me -->
-  <section id="about-me" class="container">
-    <div>
-      <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image" />
-    </div>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hi! I'm Gauri,</h1>
+      <h2>Software Engineer</h2>
+      <div class="hero-socials">
+        <a href="https://linkedin.com/in/your-username" target="_blank" aria-label="LinkedIn">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="30" height="30">
+        </a>
+        <a href="https://github.com/your-username" target="_blank" aria-label="GitHub">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="30" height="30">
+        </a>
+        <a href="mailto:your-email@example.com" target="_blank" aria-label="Email">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Email" width="30" height="30">
+        </a>
+        <a href="https://twitter.com/your-username" target="_blank" aria-label="Twitter">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" alt="Twitter" width="30" height="30">
+        </a>
+      </div>
+      
+      </div>
 
-    <div>
-      <h1>
-        Hi, I'm Gauri Joshi! <img src="html_finalprojimages/imojipng.parspng.com-4.png" width="49px" />
-      </h1>
-      <p>
-        I am currently a third-year student pursuing a degree in Computer Science at MIT Academy of Engineering. My
-        enthusiasm for the vast realm of technology has driven my active engagement in a variety of projects spanning
-        networking, databases, and augmented reality, among other domains. As I progress through my academic journey, I
-        eagerly anticipate the opportunity to further contribute to the evolving landscape of computer science.
-      </p>
+    </div>
+  </section>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+
+      <img src="html_finalprojimages/output-onlinegiftools.gif" class="profile_image" alt="Gauri's profile GIF" />
+      <div class="about-text">
+        <p>
+        Hi! Im Gauri Joshi and here are some of the things I am
+        <p> - Final-year Computer Engineering student with a strong foundation in AR development, software testing, and full-stack web technologies.
+
+          <br>- Passionate about creating innovative and meaningful tech solutions—especially in immersive learning, AI applications, and user-focused design.
+          
+          
+          
+          <br>- Currently placed as a Software Engineer in Test, actively learning industry best practices and automation frameworks.
+          
+         <br> - Projects span educational AR apps, AI crop diagnosis tools, OWASP security audits, and smart surveillance systems.
+          
+          <br>- Researched and co-authored a paper on AR-driven education—highlighting its impact on engagement and concept clarity.
+          
+          <br>- Quick learner, proactive teammate, and a builder at heart—committed to quality, creativity, and constant growth.</p>
+<!-- #<p>I am particularly interested in creating innovative applications that solve real-world problems and enhance user experiences. I enjoy collaborating with teams to build scalable and maintainable code, always keeping up with the latest industry trends and best practices. My goal is to continue growing as a developer and make a significant impact in the tech community.</p> -->
+        <div class="buttons">
+          <a href="html_finalprojimages/GAURI JOSHI RESUME.pdf" class="btn" target="_blank">Download Resume</a>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Skills -->
   <section id="skills">
     <h2>Skills</h2>
-    <div style="clear:both;"></div>
+    <ul class="skills-list">
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/512px-ISO_C%2B%2B_Logo.svg.png" alt="C/C++" />C/C++</li>
+      <li><img src="/html_finalprojimages/java.png" alt="Java" />Java</li>
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" />Python</li>
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="HTML" />HTML</li>
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS" />CSS</li>
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript" />JavaScript</li>
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" />React</li>
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js" />Node.js</li>
+      <li><img src="/html_finalprojimages/images.png" alt="MongoDB" />MongoDB</li>
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png" alt="Git" />Git & GitHub</li>
+      <li><img src="/html_finalprojimages/AR.avif" alt="Augmented Reality" />Augmented Reality</li>
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Unity_Technologies_logo.svg" alt="Unity 3D" />Unity 3D</li>
+      <li><img src="/html_finalprojimages/abstract-cyber-security-logo-line-blue-light-shield-icon-linear-style-with-eye-lens-camera-combination-isolated-on-blue-background-flat-logo-design-template-element-vector.jpg" alt="Cyber Security" />Cyber Security</li>
 
-    <div class="all_skills">
-
-      <div class="skill">
-        <img src="html_finalprojimages/c++.png" />
-        <h6>C++</h6>
-        <p>Average</p>
-      </div>
-
-      <div class="skill">
-        <img src="html_finalprojimages/html5.png" />
-        <h6>HTML</h6>
-        <p>Good</p>
-      </div>
-
-      <div class="skill">
-        <img src="html_finalprojimages/js.jpeg" />
-        <h6>JavaScript</h6>
-        <p>Average</p>
-      </div>
-
-      <div class="skill">
-        <img src="html_finalprojimages/CSS3.png" />
-        <h6>CSS</h6>
-        <p>Average</p>
-      </div>
-
-      <div class="skill">
-        <img src="html_finalprojimages/AR.avif" />
-        <h6>Augmented Reality</h6>
-        <p>Good</p>
-      </div>
-
-      <div class="skill">
-        <img src="html_finalprojimages/SQL.png" />
-        <h6>SQL</h6>
-        <p>Average</p>
-      </div>
-
-
-    </div>
+    </ul>
   </section>
 
-  <!-- Projects -->
-  <section class="project" id="projects">
-    <h2>
-      Projects
-    </h2>
-    <div style="clear:both;"></div>
-
-    <div id="projects-container" class="projects-container">
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
       <div class="project-card">
-        <h3>Augmented Reality Interactive Mobile Application</h3>
-        <ul>
-          <li>Designed an interactive app using Unity and Vuforia that seamlessly recognizes image markers representing 2D shapes and augments 
-            them with 3D counterparts, providing an immersive learning environment.</li>
-        </ul>
+        <h3>MultiFunctional Augmented Reality Learning Application</h3>
+        <p>Our project aimed to revolutionize traditional learning by bringing concepts to life using Augmented Reality. Students can interact with 3D alphabets, solve shape-based puzzles, visualize molecules, and even explore the solar system — all through their phones.
+          .</p>
+        <img src = "html_finalprojimages/Screenshot 2024-08-26 193643.png">
+        <a href="#" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
       </div>
-      <hr>
       <div class="project-card">
-        <h3>Weather Forecast Website</h3>
-        <ul>
-          <li> Developed a responsive web application for user-friendly accessibility, providing the ability to access and view local and international
-            weather forecasts.
-            </li>
-        </ul>
+        <h3>Real vs. Fake Image Detection</h3>
+        <p>Leveraged CNNs to classify deepfake vs real images. This project strengthened my foundation in data science, machine learning, Python, and model training techniques.</p>
+        <img src ="html_finalprojimages/image (4).png">
+        <a href="#" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
       </div>
-      <hr>
       <div class="project-card">
-        <h3>Network Monitoring and Visualization</h3>
-        <ul>
-          <li>Created a styled a website that can capture Real-time network packets and visualize the data in various graphs and charts.</li>
-        </ul>
+        <h3>Secret Vault App </h3>
+        <p> Implemented encryption, PIN-based authentication, and a simple UI to ensure data safety and user privacy.</p>
+        <img src ="html_finalprojimages/image (3).png">
+        <a href="#" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
       </div>
-    </div>
-  </section>
-  <div style="clear:both;"></div>
-
-  <!-- Recommendations -->
-  <section id="recommendations">
-    <h2>Recommendations</h2>
-    <div style="clear:both;"></div>
-    <div class="all_recommendations" id="all_recommendations">
-      <div class="recommendation">
-        <span>&#8220;</span>
-        Gauri is an exceptionally dedicated and innovative problem-solver, showcasing a deep understanding of technology in her impactful contributions to various projects.
-        <span>&#8221;</span>
+      <div class="project-card">
+        <h3>Network Visualizer </h3>
+        <p>Designed and developed a visualisation tool to demonstrate how data packets travel through networks, which enhanced my understanding of networks protocols.</p>
+        <img src ="html_finalprojimages/image (2).png">
+        <a href="#" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
       </div>
-      <div class="recommendation">
-        <span>&#8220;</span>
-        As a peer, Gauri impresses with her commitment to excellence, particularly in networking and databases. Her tech prowess is commendable
-        She is highly knowledgable and always goes the extra step to make sure everything is right.
+      <div class="project-card">
+        <h3>City Bus Database Management System</h3>
+        <p>Built a functional relational database system to manage city bus ticket system. Learned SQL, ER modeling and problem solving.</p>
+        <img src ="html_finalprojimages/image (5).png">
+        <a href="#" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
         
-        <span>&#8221;</span>
-      </div>
-      <div class="recommendation">
-        <span>&#8220;</span>
-        I had worked along with Gauri during our project of AR app development.
-        She is a committed resource who has in depth knowledge about the domain.
-        She will be an asset for any organisation!
-        <span>&#8221;</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Recommendation Form -->
-  <section id="contact">
-    <div class="flex_center">
-      <fieldset>
-        <legend class="introduction">Leave a Recommendation</legend>
-        <input type="text" placeholder="Name (Optional)"> <br />
-        <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-        <div class="flex_center">
-          <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
         </div>
-      </fieldset>
     </div>
   </section>
 
-  <div class="iconbutton">
-    <a href="#home">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    </a>
-  </div>
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="timeline">
+  
+      <div class="timeline-item">
+        <span>Jan 2025 – July 2025</span>
+        <h4>Software Developer in Test Intern @ PhonePe Pvt. Ltd.</h4>
+        <p>
+          Interning at PhonePe as part of the BTech SLIP Programme marked a pivotal milestone in my journey. I contributed to real-world projects involving end-to-end automation testing, product quality assurance, and scalable system analysis. Collaborated in an agile environment, honed my skills in clean code practices, and developed a strong sense of proactive team communication.
+        </p>
+      </div>
+  
+      <div class="timeline-item">
+        <span>June 2024 – August 2024</span>
+        <h4>Software Development Intern @ Tridit Digital Pvt. Ltd.</h4>
+        <p>
+          Gained hands-on experience with Adobe Experience Manager (AEM) and content management systems. Built dynamic AEM components and pages, and explored how scalable, enterprise-grade websites are developed and maintained.
+        </p>
+      </div>
+  
+      <div class="timeline-item">
+        <span>July 2023 – August 2023</span>
+        <h4>Web Development Intern @ Teachnook Pvt. Ltd.</h4>
+        <p>
+          Completed an intensive web development training program. Created responsive web projects using HTML, CSS, and APIs. Strengthened front-end skills and built a solid foundation in web technologies over a two-month period.
+        </p>
+      </div>
+  
+    </div>
+  </section>
+  
 
-  <div class="popup" id="popup" class="flex_center">
-    <img src="html_finalprojimages/checkmark--outline.svg" />
-    <h3>Thankyou for your kind words!</h3>
-    <button onclick="showPopup(false)">Ok</button>
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certification-slider">
+      <div class="certification-track">
+        <div class="certification-card">
+          <img src="/html_finalprojimages/image (10).png" alt="Frontend Developer Certification">
+          <p>Red Hat Linux Foundation</p>
+        </div>
+        <div class="certification-card">
+          <img src="/html_finalprojimages/image (11).png" alt="Google UX Design Certificate">
+          <p>IBM Intro to Git and GitLab</p>
+        </div>
+        <div class="certification-card">
+          <img src="/html_finalprojimages/image (8).png" alt="Google UX Design Certificate">
+          <p>NPTEL Intro to ML</p>
+        </div>
+        <div class="certification-card">
+          <img src="/html_finalprojimages/image (7).png" alt="Google UX Design Certificate">
+          <p>Virtual Internship</p>
+        </div>
+        <div class="certification-card">
+          <img src="/html_finalprojimages/image (9).png" alt="Google UX Design Certificate">
+          <p>Cisco Introduction to networks</p>
+        </div>
+        <div class="certification-card">
+          <img src="/html_finalprojimages/image (6).png" alt="Google UX Design Certificate">
+          <p>AWS Cloud Foundation</p>
+          </div>
+          <div class="certification-card">
+            <img src="/html_finalprojimages/c4.png" alt="Google UX Design Certificate">
+            <p>AWS Cloud Pipeline Builder</p>
+        </div>
+        <div class="certification-card">
+          <img src="/html_finalprojimages/c3.png" alt="Google UX Design Certificate">
+          <p>AWS Cloud Architechting</p>
+      </div>
+      <div class="certification-card">
+        <img src="/html_finalprojimages/c2.png" alt="Google UX Design Certificate">
+        <p>Python for AI Development</p>
+    </div>
+    <div class="certification-card">
+      <img src="/html_finalprojimages/c1.png" alt="Google UX Design Certificate">
+      <p>Web Development</p>
   </div>
+        <!-- Add more cards here -->
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="contact">
+    <h2>Let's Connect</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <div class="form-buttons">
+        <button type="submit" class="btn">Send Message</button>
+      </div>
+    </form>
+    <div class="socials-contact">
+      <a href="https://linkedin.com/in/your-username" target="_blank" aria-label="LinkedIn">LinkedIn</a> |
+      <a href="https://github.com/your-username" target="_blank" aria-label="GitHub">GitHub</a> |
+      <a href="https://twitter.com/your-username" target="_blank" aria-label="Twitter">Twitter</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="currentYear"></span> Gauri. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
